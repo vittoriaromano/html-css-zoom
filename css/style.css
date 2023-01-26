@@ -9,7 +9,17 @@
 
 
 /* header */
-
+header{
+    height: 40px;
+    background-color: black;
+}
 /* main */
-
+main{
+    height: calc(100vh - 110px);
+    background-color: blueviolet;
+}
 /* footer*/
+footer{
+    height: 70px;
+    background-color: gray;
+}
