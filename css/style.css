@@ -7,7 +7,9 @@
 
 /* common */
 
-
+.flex{
+    display: flex;
+}
 /* header */
 header{
     height: 40px;
@@ -17,6 +19,36 @@ header{
 main{
     height: calc(100vh - 110px);
     background-color: blueviolet;
+    padding: 20px 0;
+}
+.cont{
+    height: 80%;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px dashed black;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box{
+    background-color: aliceblue;
+    width: calc(100% / 7 - 10px);
+    height: 50px;
+    margin-bottom: 50px;
+} 
+.relative{
+    /* position: absolute; */
+    height: 50px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.utente{
+    position: relative;
+    bottom: 20px;
+    font-size: 13px;
 }
 /* footer*/
 footer{
